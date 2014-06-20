@@ -1,6 +1,8 @@
 # RNA-seq data analysis practical
 
-Note: Since the course spans only on one day, the tutorial could not been done thouroughly. Do not worry: the main points will be stressed during the course and this tutorial is enough detailed to be done by yourself after. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact me: mitra.barzine [at] ebi.ac.uk 
+Note: Since this part spans only on one day, the tutorial could not been done thouroughly. 
+
+Do not worry: the main points will be stressed during the course and this tutorial is enough detailed to be done by yourself after. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact us: lgreger [at] ebi.ac.uk and mitra [at] ebi.ac.uk 
 
 This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover one of the many existing workflows to analyse this type of data.
 
@@ -14,8 +16,7 @@ RNAseq
 `-- data
     |-- raw                 # raw data: fastq files
     |-- mapped              # mapped data: BAM files
-    `-- demultiplexing      # extra fastq files for the demultiplexing section
-
+    `-- Robject             # R objects
 ```
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.
@@ -26,11 +27,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
     1. [The FASTQ format](doc/11.fastq.md)
     2. [Quality assessment (QA)](doc/12.qa.md)
     3. [Filtering FASTQ files](doc/13.filtering_fastq.md)
-    4. [De-multiplexing samples](doc/14.demultiplexing.md)
-    3. [Aligning reads to the genome](doc/15.aligning.md)
+    4. [Aligning reads to the genome](doc/15.aligning.md) (already processed - will not be run)
 2. **Dealing with aligned data**
     1. [The SAM/BAM format](doc/21.bam.md)
-    1. [Visualising aligned reads](doc/22.visualising.md)
+    1. [Visualising aligned reads](doc/22.visualising.md) (optional)
     1. [Filtering BAM files](doc/23.filtering_bam.md)
     2. Gene-centric analyses:
         1. [Counting reads overlapping annotated genes](doc/24.counting.md)
@@ -41,10 +41,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
             * With RPKMs
             * With DESeq2
         1. [Differential gene expression](doc/26.de.md)
-    2. Exon-centric analyses:
-        1. [Differential exon usage](doc/27.deu.md)
-    2. Transcript-centric analyses:
-        1. [Identification, annotation and visualisation of splicing switch events](doc/28.se.md)
+
 
 ## Software requirements
 *Note: depending on the topics covered in the course some of these tools might not be used.*
@@ -82,4 +79,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 
 ## Aknowledgments
-This tutorial has been inspired on material developed by Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who I would like to thank and acknowledge. Special thanks must go to Ângela Gonçalves and Mitra Barzine, with whom I have been teaching, and to Gabriella Rustici, for always finding a way to organise a new course.
+This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. Special thanks must go to Mar Gonzalez-Porta, with whom we have been teaching and to Gabriella Rustici for her priceless help in organising courses.
