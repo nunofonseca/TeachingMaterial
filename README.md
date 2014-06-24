@@ -1,6 +1,7 @@
 # RNA-seq data analysis practical
 
-Note: Since the course spans only on one day, the tutorial could not been done thouroughly. Do not worry: the main points will be stressed during the course and this tutorial is enough detailed to be done by yourself after. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact me: mitra.barzine [at] ebi.ac.uk 
+Note: This is supplement to the Host-Pathogen project in the Bioinformatics summer school 2014 in EBI. 
+Since the project is mostly introducing how to deal with RNA-seq data, this tutorial is provided as a reference and it is enough detailed to be done by yourself. If you have any question (on any part of the tutorial or on RNA-seq more generally) you can contact us: mitra.barzine [at] ebi.ac.uk and David Thybert dthybert [at] ebi.ac.uk 
 
 This tutorial will illustrate how to use standalone tools, together with R and Bioconductor for the analysis of RNA-seq data. Keep in mind that this is a rapidly evolving field and that this document is not intended as a review of the many tools available to perform each step; instead, we will cover one of the many existing workflows to analyse this type of data.
 
@@ -82,4 +83,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 
 ## Aknowledgments
-This tutorial has been inspired on material developed by Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who I would like to thank and acknowledge. Special thanks must go to Ângela Gonçalves and Mitra Barzine, with whom I have been teaching, and to Gabriella Rustici, for always finding a way to organise a new course.
+This tutorial has been inspired on material developed by Mar Gonzalez-Porta, Ângela Gonçalves, Nicolas Delhomme, Simon Anders and Martin Morgan, who we would like to thank and acknowledge. 
