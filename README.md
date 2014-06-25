@@ -53,7 +53,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 * Standalone tools:
   * [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
   * [PRINSEQ](http://prinseq.sourceforge.net/)
-  * [eautils](https://code.google.com/p/ea-utils/)
+  * [ea-utils](https://code.google.com/p/ea-utils/)
   * [samtools](http://sourceforge.net/projects/samtools/)
   * [IGV](http://www.broadinstitute.org/software/igv/download)
   * [htseq-count](http://www-huber.embl.de/users/anders/HTSeq/doc/count.html)
