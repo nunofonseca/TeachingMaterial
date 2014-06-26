@@ -42,7 +42,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
             * With DESeq2
         1. [Differential gene expression](doc/26.de.md)
 3. **Other topics - Not covered in the course**
-     1. **Dealing with raw data**
+     1. Dealing with raw data
         1.[De-multiplexing](doc/demultiplexing.md)
      1. Exon-centric analyses:
         1. [Differential exon usage](doc/27.deu.md)
