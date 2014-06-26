@@ -15,6 +15,7 @@ RNAseq
 |-- reference               # reference info (e.g. genome sequence and annotation)
 `-- data
     |-- raw                 # raw data: fastq files
+    |-- demultiplexing      # multiplexed data !not used for this course
     |-- mapped              # mapped data: BAM files
     `-- RData               # R environment for each part with the different generated object
 ```
