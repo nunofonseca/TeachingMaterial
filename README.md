@@ -64,6 +64,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 * Bioconductor packages:
   * [GenomicRanges](http://www.bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
+  * [GenomicAlignments](http://www.bioconductor.org/packages/release/bioc/html/GenomicAlignments.html)
   * [Rsamtools](http://www.bioconductor.org/packages/release/bioc/html/Rsamtools.html)
   * [biomaRt](http://www.bioconductor.org/packages/release/bioc/html/biomaRt.html)
   * [pasilla](http://www.bioconductor.org/packages/release/data/experiment/html/pasilla.html)
