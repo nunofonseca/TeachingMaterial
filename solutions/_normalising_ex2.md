@@ -17,3 +17,4 @@ boxplot(l[[2]], outline=F, ylab="RPKMs", ylim=c(0, 60))
 boxplot(l[[3]], outline=F, ylab="normalised counts - DESeq", ylim=c(0, 1100))
 dev.off()
 ```
+
