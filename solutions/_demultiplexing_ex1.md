@@ -1,3 +1,4 @@
 ```bash
 fastqc barcoded.fastq
 ```
+

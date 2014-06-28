@@ -15,3 +15,4 @@ samtools sort -n untreated3_paired.bam | head
 samtools view -q 255 untreated3_paired.bam | wc -l
 # 7,417,488 / 2= 3,708,744
 ```
+

@@ -37,3 +37,5 @@ samtools view untreated3.bam | head -n 300 | awk '{print $6}' | sort -u
   * etc.
 
   Note that `M` indicates that the position could be mapped, but it does not specify if it was an exact match or a mismatch.
+
+

@@ -24,3 +24,4 @@ ncounts=subset_ncounts/gene_lengths
 rpkm=ncounts*1e9 
 head(rpkm)
 ```
+

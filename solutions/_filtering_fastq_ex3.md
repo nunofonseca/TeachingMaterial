@@ -5,3 +5,4 @@ fastqc SRR031714_1_filt1.fastq SRR031714_2_filt1.fastq
 ```
 
 We can then open and inspect the report.
+

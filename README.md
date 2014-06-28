@@ -15,8 +15,9 @@ RNAseq
 |-- reference               # reference info (e.g. genome sequence and annotation)
 `-- data
     |-- raw                 # raw data: fastq files
+    |-- demultiplexing      # multiplexed data !not used for this course
     |-- mapped              # mapped data: BAM files
-    `-- Robject             # R objects
+    `-- RData               # R environment for each part with the different generated object
 ```
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.
@@ -42,12 +43,12 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
             * With DESeq2
         1. [Differential gene expression](doc/26.de.md)
 3. **Other topics - Not covered in the course**
-     1. **Dealing with raw data**
-        1.[De-multiplexing](doc/demultiplexing.md)
+     1. Dealing with raw data
+           * [De-multiplexing](doc/14.demultiplexing.md)
      1. Exon-centric analyses:
-        1. [Differential exon usage](doc/27.deu.md)
+           * [Differential exon usage](doc/27.deu.md)
      2. Transcript-centric analyses:
-        1. [Identification, annotation and visualisation of splicing switch events](doc/28.se.md)
+           * [Identification, annotation and visualisation of splicing switch events](doc/28.se.md)
 
 
 ## Software requirements
@@ -63,9 +64,11 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 * Bioconductor packages:
   * [GenomicRanges](http://www.bioconductor.org/packages/release/bioc/html/GenomicRanges.html)
+  * [GenomicAlignments](http://www.bioconductor.org/packages/release/bioc/html/GenomicAlignments.html)
   * [Rsamtools](http://www.bioconductor.org/packages/release/bioc/html/Rsamtools.html)
   * [biomaRt](http://www.bioconductor.org/packages/release/bioc/html/biomaRt.html)
   * [pasilla](http://www.bioconductor.org/packages/release/data/experiment/html/pasilla.html)
+  * [DESeq](http://www.bioconductor.org/packages/2.13/bioc/html/DESeq.html) - only for some dependencies
   * [DESeq2](http://www.bioconductor.org/packages/2.13/bioc/html/DESeq2.html)
   * [DEXSeq](http://www.bioconductor.org/packages/2.13/bioc/html/DEXSeq.html)
 
