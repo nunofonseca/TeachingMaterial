@@ -4,3 +4,4 @@ head(split_counts)
 gene_counts_chr4=sapply( split_counts, function(x) sum(x) ) 
 head(gene_counts_chr4)
 ```
+
