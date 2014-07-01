@@ -7,7 +7,7 @@
 #pandoc *.md -o ../pdf/practical.pdf --toc 
 ##          --variable title:"RNA-seq data analysis practical - Cancer Genomics Workshop" 
 ##          --variable date:"2014/07/03" 
-##          --variable author:"Mar Gonzàlez-Porta - Mitra P. Barzine - Liliana Greger" 
+##          --variable author:"Mitra P. Barzine and Liliana Greger"
 ##          --variable links-as-notes 
 ##          --variable linkcolor:black 
 ##          --variable urlcolor:black 
