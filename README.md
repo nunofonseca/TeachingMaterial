@@ -20,6 +20,8 @@ RNAseq
     `-- RData               # R environment for each part with the different generated object
 ```
 
+You can also browse the files online and download only the needed material from [here](http://www.ebi.ac.uk/~mitra/courses//RNASeq/)
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US). This means that you are able to copy, share and modify the work, as long as the result is distributed under the same license.
 
 ## Table of contents
