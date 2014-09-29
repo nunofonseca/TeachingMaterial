@@ -15,7 +15,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
 
 ## Table of contents
 
-** Quality control for NGS raw data **
+* Quality control for NGS raw data:
     1. [The FASTQ format](doc/11.fastq.md)
     2. [Quality assessment (QA)](doc/12.qa.md)
     3. [Filtering FASTQ files](doc/13.filtering_fastq.md)
