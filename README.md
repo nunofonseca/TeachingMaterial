@@ -1,6 +1,7 @@
 # Quality control for Next-Generation sequencing data
 
-Note: Quality control for NGS raw data (e.g DNAseq or RNAseq) is in essence the same.
+Note: Quality control for NGS raw data (e.g DNAseq or RNAseq) is in essence the same. 
+
 The differences in the analyses happen after: from the selections of the mapping tools to the downstream analysis.
 
 For any question, you can contact me: mitra [at] ebi.ac.uk 
