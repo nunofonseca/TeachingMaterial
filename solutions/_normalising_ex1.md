@@ -22,6 +22,6 @@ ncounts=subset_ncounts/gene_lengths
 
 # obtain RPKMs 
 rpkm=ncounts*1e9 
-head(rpkm)
+summary(rpkm)
 ```
 
